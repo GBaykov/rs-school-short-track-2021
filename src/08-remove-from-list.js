@@ -21,7 +21,7 @@ function removeKFromList(l, k) {
   let index;
   while (l.includes(k)) {
     index = l.indexOf(k);
-    l.splice(index, 1)
+    l.splice(index, 1);
   } return l;
 }
 
